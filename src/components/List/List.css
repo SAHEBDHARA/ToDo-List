@@ -1,0 +1,18 @@
+.list-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 3px solid gray;
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+}
+.tasklist{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+    background: rgb(130, 229, 130);
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,33 @@
+.input-Container{
+    display: flex;
+    flex-direction: column;
+}
+.inputLabel{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.inputSection{
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(63, 55, 55);
+}
+.Add-button{
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: rgb(180, 136, 224);
+    color: aliceblue;
+    cursor: pointer;
+}
+.input-Container.invalid input{
+ border: 2px solid red;
+ background: rgb(182, 140, 140);
+}
+.input-Container.invalid label{
+ color: rgb(213, 93, 93);
+}
